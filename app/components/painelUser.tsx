@@ -3,7 +3,7 @@
 import { useState } from "react"
 import CreateUser from "./funcUser/createUser"
 const PainelUser = () => {
-    const [createUser, setCreateUser ] = useState(false)
+    const [createUser, setCreateUser ] = useState(true)
     const [updateUser, setUpdateUser ] = useState(false)
     const [deleteUser, setDeleteUser ] = useState(false)
 
