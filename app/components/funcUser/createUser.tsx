@@ -32,6 +32,7 @@ const CreateUser = () => {
 
         console.log(res)
         setLoading(false)
+        window.location.reload()
     }
 
     return (

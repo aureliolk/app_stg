@@ -2,7 +2,8 @@ const ListUser = async () => {
     const res = await fetch("https://sacramentotur.com.br/wp-json/jet-cct/api_cct", {
         headers: {
             "Authorization": "Basic YXVyZWxpb2xrOmtpdksgUzcxaCBja1E4IHBMcEkgMFI3ayBHNnFa",
-        }
+        },
+        cache:"no-cache"
     })
     const data = await res.json()
 
